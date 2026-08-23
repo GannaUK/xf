@@ -1,0 +1,78 @@
+ColumnName,Description
+UARecordID,ІД запису (Унікальний код рядка в базі даних)
+RefID,ІД першоджерела (наукової статті або звіту)
+Reference,Посилання на джерело (назва праці, автори)
+PublicationYear,Рік публікації статті
+StartingYear,Рік початку збору зразків
+EndingYear,Рік завершення збору зразків
+PlantEppoCode,EPPO-код рослини (міжнародний код захисту рослин)
+PlantFamily,Родина рослини (наприклад: Маслинові)
+PlantGenus,Рід рослини (наприклад: Олива)
+PlantSpecies,Вид рослини (офіційна латинська назва)
+ReportedPlantSpecies,Назва рослини в оригіналі статті
+CommonName,Загальноприйнята назва англійською (Olive, Grape)
+Cultivar,Сорт рослини (наприклад: сорт оливи Каламата)
+InfectionMethodLevel1,Спосіб зараження (дикий чи лабораторний експеримент)
+InfectionMethodLevel2,Уточнення способу (укус комахи чи механічний укол)
+MechanicalInoculationLevel3a,Деталі штучного введення бактерії в стебло
+InfectionVectorSpeciesLevel3b,Вид комахи-переносника (наприклад, цикадка)
+LocationType,Тип локації (сад, приватний двір, ліс, розплідник)
+CountryCode,Дволітерний міжнародний код країни (IT, ES, US)
+Country,Країна, де зафіксовано випадок
+Location,Локація / Регіон (наприклад: Апулія)
+LocationDescAdd,Додатковий опис місця від вчених
+CoordinatesPrecision,Точність GPS-координат
+Latitude,Географічна широта для карти
+Longitude,Географічна довгота для карти
+PestEppoCode,EPPO-код шкідника (бактеріі Xylella)
+PestSpecies,Вид шкідника (Xylella fastidiosa або taiwanensis)
+PestSubspecies,Подвид шкідника (pauca, multiplex, fastidiosa)
+PestAsReported,Назва патогену в оригіналі статті
+Disease,Назва хвороби (наприклад: синдром висихання оливи)
+Strain,Конкретний штам бактерії
+MLST,Секвенс-тип ST (головний генетичний паспорт штамів)
+GenotypingComment,Нотатки мікробіолога про ДНК бактерії
+POSNEG_Symptoms,Результат візуальних симптомів (+/-)
+TOTPOS_Symptoms,Всього виявлено хворих рослин візуально
+TOTPLANTS_Symptoms,Всього оглянуто рослин візуально
+COMMENT_Symptoms,Опис візуальних симптомів
+POSNEG_Microscopy,Результат аналізу під мікроскопом (+/-)
+TOTPOS_Microscopy,Кількість позитивних тестів мікроскопії
+TOTPLANTS_Microscopy,Всього протестовано під мікроскопом
+COMMENT_Microscopy,Коментар до мікроскопії
+POSNEG_ELISA,Результат тесту ІФА на білки бактерії (+/-)
+TOTPOS_ELISA,Кількість позитивних тестів ІФА
+TOTPLANTS_ELISA,Всього протестовано методом ІФА
+COMMENT_ELISA,Коментар до тесту ІФА
+POSNEG_PCR,Результат ПЛР-тесту на ДНК бактерії (+/-)
+TOTPOS_PCR,Кількість позитивних ПЛР-тестів
+TOTPLANTS_PCR,Всього протестовано методом ПЛР
+COMMENT_PCR,Коментар до ПЛР-тесту
+POSNEG_OtherImmunTech,Результат інших імунологічних методів (+/-)
+TOTPOS_OtherImmunTech,Позитивні результати інших імунотестів
+TOTPLANTS_OtherImmunTech,Всього рослин в інших імунотестах
+COMMENT_OtherImmunTech,Коментар до інших імунотестів
+POSNEG_SymptomsTestPlants,Результат зараження тест-рослин (+/-)
+TOTPOS_SymptomsTestPlants,Позитивні випадки на тест-рослинах
+TOTPLANTS_SymptomsTestPlants,Всього використано тест-рослин
+COMMENT_SymptomsTestPlants,Коментар до біологічного тесту
+POSNEG_Culture,Результат посіву в чашки Петрі (+/-)
+TOTPOS_Culture,Кількість успішно вирощених культур бактерії
+TOTPLANTS_Culture,Всього спроб посіву культури
+COMMENT_Culture,Коментар до вирощування культури
+POSNEG_Sequencing,Результат повного читання ДНК бактерії (+/-)
+TOTPOS_Sequencing,Кількість підтверджених секвенувань
+TOTPLANTS_Sequencing,Всього відправлено на секвенування
+COMMENT_Sequencing,Коментар до секвенування ДНК
+ToleranceResistanceReported,Чи заявлена стійкість сорту до бактерії
+ToleranceResistanceCategory,Категорія стійкості (Стійкий, Сприйнятливий)
+ToleranceResistanceComment,Деталі від науковців про виживання рослини
+Comment,Загальний текстовий коментар до рядка
+ConfirmedRecord,Чи підтвережений запис експертами EFSA
+Contradictory,Прапорець суперечливих даних (True/False)
+OverallPOSNEG,Фінальний вердикт (Позитивний випадок чи ні)
+CategoryA,Категорія А (Найвища точність, підтверджено кількома тестами)
+CategoryB,Категорія B наукової достовірності
+CategoryC,Категорія C наукової достовірності
+CategoryD,Категорія D наукової достовірності
+CategoryE,Категорія E (Мінімальне підтвердження хоча б одним методом)
